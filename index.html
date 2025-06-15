@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Your Name</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Navbar -->
-    <header>
+    <header class="navbar">
         <nav>
-            <h1>Your Name</h1>
-            <ul class="menu">
+            <div class="logo">Your Name</div>
+            <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -23,58 +23,66 @@
         </nav>
     </header>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Introduction Section -->
-        <section class="intro">
-            <div class="profile-container">
-                <img src="your-photo.jpg" alt="Profile Photo" class="profile-photo">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Your Name</span></h1>
+            <p>Welcome to my portfolio! I am a [Your Role/Profession] with experience in [specific skills].  
+                Feel free to explore my projects, learn more about me, and get in touch!</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
             </div>
-            <div class="intro-text">
-                <h2>Your Name</h2>
-                <p>Hello! I am [Your Current Role or Title].  
-                Welcome to my portfolio. I'm passionate about [your skills/interests].  
-                Feel free to explore my projects, CV, and more!</p>
-                <div class="social-links">
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
-                </div>
+        </div>
+        <div class="hero-image">
+            <img src="your-photo.jpg" alt="Profile Photo">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-title">About Me</div>
+        <p>I am a [Your Profession] with a background in [education or expertise].  
+            My passion lies in [your interests]. I enjoy creating impactful projects and learning new skills.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-title">Projects</div>
+        <div class="projects-list">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Brief description of this project.</p>
+                <a href="https://linktoproject1.com" target="_blank">View Project</a>
             </div>
-        </section>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Brief description of this project.</p>
+                <a href="https://linktoproject2.com" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Brief description of this project.</p>
+                <a href="https://linktoproject3.com" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
 
-        <!-- About Section -->
-        <section id="about">
-            <h3>About Me</h3>
-            <p>I am a [Your Profession] with a background in [Your Expertise or Education].  
-            I enjoy working on [specific areas]. When I'm not working, I spend my time [your hobbies].</p>
-        </section>
+    <!-- CV Section -->
+    <section id="cv" class="section">
+        <div class="section-title">CV</div>
+        <p>Download my full CV <a href="your-cv.pdf" target="_blank">here</a>.</p>
+    </section>
 
-        <!-- Projects Section -->
-        <section id="projects">
-            <h3>Projects</h3>
-            <ul>
-                <li><a href="https://linktoproject1.com">Project 1</a>: Brief description of this project.</li>
-                <li><a href="https://linktoproject2.com">Project 2</a>: Brief description of this project.</li>
-                <li><a href="https://linktoproject3.com">Project 3</a>: Brief description of this project.</li>
-            </ul>
-        </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-title">Contact</div>
+        <p>If you'd like to collaborate or have any questions, feel free to get in touch.</p>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </section>
 
-        <!-- CV Section -->
-        <section id="cv">
-            <h3>CV</h3>
-            <p>Download my full CV <a href="your-cv.pdf" target="_blank">here</a>.</p>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <h3>Contact</h3>
-            <p>Feel free to reach me at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2023 Your Name. Built with ❤️</p>
+    <footer class="footer">
+        <p>&copy; 2023 Your Name. Designed with ❤️.</p>
     </footer>
 </body>
 

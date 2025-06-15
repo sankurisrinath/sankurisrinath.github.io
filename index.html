@@ -1,61 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sankuri Srinath | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Your Name</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <h1>Sankuri Srinath</h1>
-      <nav>
-        <a href="#bio">Bio</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="#cv">CV</a>
-      </nav>
-    </div>
-  </header>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1>Your Name</h1>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="container">
-    <section id="bio">
-      <h2>About Me</h2>
-      <p>
-        I'm an M.Tech student passionate about machine learning and speech processing. I build systems that can understand and organize spoken audio through diarization, denoising, and classification techniques.
-      </p>
-    </section>
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section class="intro">
+            <div class="profile-container">
+                <img src="your-photo.jpg" alt="Profile Photo" class="profile-photo">
+            </div>
+            <div class="intro-text">
+                <h2>Your Name</h2>
+                <p>Hello! I am [Your Current Role or Title].  
+                Welcome to my portfolio. I'm passionate about [your skills/interests].  
+                Feel free to explore my projects, CV, and more!</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Speaker Diarization using K-Means</h3>
-        <p>Implemented diarization using custom K-Means clustering on log-mel spectrograms to estimate speaker count in audio recordings.</p>
-      </div>
-      <div class="project">
-        <h3>Denoising Autoencoder</h3>
-        <p>Trained a deep learning model to clean noisy speech, improving audio clarity for downstream tasks like classification.</p>
-      </div>
-      <!-- Add more projects here -->
-    </section>
+        <!-- About Section -->
+        <section id="about">
+            <h3>About Me</h3>
+            <p>I am a [Your Profession] with a background in [Your Expertise or Education].  
+            I enjoy working on [specific areas]. When I'm not working, I spend my time [your hobbies].</p>
+        </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:rishabh@example.com">rishabh@example.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/rishabhjoshi" target="_blank">linkedin.com/in/rishabhjoshi</a></p>
-    </section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h3>Projects</h3>
+            <ul>
+                <li><a href="https://linktoproject1.com">Project 1</a>: Brief description of this project.</li>
+                <li><a href="https://linktoproject2.com">Project 2</a>: Brief description of this project.</li>
+                <li><a href="https://linktoproject3.com">Project 3</a>: Brief description of this project.</li>
+            </ul>
+        </section>
 
-    <section id="cv">
-      <h2>CV</h2>
-      <p><a href="cv.pdf" download>Download CV (PDF)</a></p>
-    </section>
-  </main>
+        <!-- CV Section -->
+        <section id="cv">
+            <h3>CV</h3>
+            <p>Download my full CV <a href="your-cv.pdf" target="_blank">here</a>.</p>
+        </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Rishabh Joshi. All rights reserved.</p>
-    </div>
-  </footer>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>Feel free to reach me at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Your Name. Built with ❤️</p>
+    </footer>
 </body>
+
 </html>
